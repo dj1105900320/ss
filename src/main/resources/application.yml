@@ -1,0 +1,12 @@
+server:
+  port: 9003
+
+spring:
+  application:
+    na
+  datasource:
+    url: jdbc:mysql://db.xueliman.com:3306/spring_security?characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
